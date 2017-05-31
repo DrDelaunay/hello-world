@@ -1,2 +1,14 @@
 # hello-world
 I‘m Dr.Delaunay.’
+#include <iostream>
+using namespace std;
+int main()
+{
+  int sum=0;
+  for(int i=0;i<10;++i)
+  {
+    sum+=i;
+  }
+  cout<<"sum="<<sum<<endl;
+  return 0;
+}
